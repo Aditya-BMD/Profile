@@ -1,0 +1,39 @@
+.navbar{
+    height: 6rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    top: 0;
+}
+
+.logo{
+    object-fit: cover;
+    height: 100%;
+}
+
+.menu-item{
+    cursor: pointer;
+    padding: 1rem;
+}
+.menu-item:hover{
+    color: red;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.2rem solid #8D170DFF;
+    border-radius: 1rem;
+}
+
+.contact-button{
+    background: #8D170DFF;
+    color: white;
+    padding: 1rem;
+    border: black;
+    border-radius: 2rem ;
+}
+.contact-button:hover{
+    background: #590c0a;
+}
+
