@@ -48,6 +48,9 @@
 }
 
 @media  screen and (max-width: 840px){
+    #home{
+        height: calc(100vh - 50vh);
+    }
     .profile-image{
         right: -4vw;
     }
@@ -60,12 +63,12 @@
     .intro-para{
         font-size: 4vw;
     }
-    .test{
-
-    }
 }
 
 @media screen and (max-width: 480px){
+    #home{
+        height: calc(100vh - 52vh);
+    }
     .profile-image{
         right: -50vw;
     }

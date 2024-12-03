@@ -1,0 +1,56 @@
+#skills{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    overflow: hidden;
+}
+.what-i-do{
+    font-size: 3rem;
+    font-weight: 500;
+}
+#skills .skills-intro{
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2rem;
+}
+.technologies{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.tech{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border-radius: 1rem;
+    padding: 1rem;
+    background: rgb(50, 50, 50);
+    max-width: 80%;
+}
+.tech-image{
+    margin-right: 1rem;
+}
+
+ .tech-image img{
+     object-fit: cover;
+     border-radius: 50%;
+     height: 4rem;
+     width: 4rem;
+}
+.tech-details{
+}
+
+.tech-details .heading{
+    margin-bottom: 0.4rem;
+    font-size: 0.8rem;
+}
+.tech-details .description{
+    font-size: 1rem;
+}
